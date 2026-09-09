@@ -14,7 +14,7 @@
 }
 
 body.oscuro {
-    /* MODO OSCURO: Estilo Piedra Sheikah */
+ 
     background-image: linear-gradient(rgba(15, 23, 42, 0.40), rgba(15, 23, 42, 0.70)), url('assets/zelda.jpg');
     background-size: cover;
     background-position: center;
@@ -35,7 +35,7 @@ body.oscuro {
 }
 
 body {
-    /* Fondo de Zelda con filtro claro (tipo pergamino) */
+  
     background-image: linear-gradient(rgba(244, 240, 230, 0.40), rgba(244, 240, 230, 0.70)), url('assets/zelda-claro.jpg');
     background-size: cover;
     background-position: center;
@@ -55,13 +55,13 @@ body {
     padding: 60px 0;
 }
 
-/* --- TIPOGRAFÍA ZELDA --- */
+
 .hero-texto h1, .titulo-seccion h2, .focus-text-seccion, .tarjeta-perfil h2 {
     font-family: 'Cinzel', serif;
     text-shadow: 0 0 12px rgba(56, 189, 248, 0.3);
 }
 
-/* --- ENCABEZADO --- */
+
 .encabezado {
     display: flex;
     justify-content: space-between;
@@ -113,7 +113,7 @@ body {
     text-shadow: 0 0 8px rgba(56, 189, 248, 0.5);
 }
 
-/* --- BOTONES SHEIKAH --- */
+
 .boton {
     padding: 10px 20px;
     border-radius: 4px;
@@ -153,7 +153,7 @@ body {
     box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
 }
 
-/* --- HERO SECTION --- */
+
 .hero {
     display: grid;
     grid-template-columns: 1.2fr 0.8fr;
@@ -218,7 +218,7 @@ body {
     gap: 16px;
 }
 
-/* --- TARJETAS CRISTAL SHEIKAH --- */
+
 .tarjeta-perfil-enlace {
     text-decoration: none;
     color: inherit;
@@ -306,7 +306,7 @@ body {
     border: 1px solid rgba(16, 185, 129, 0.3);
 }
 
-/* --- SECCIONES GENÉRICAS --- */
+
 .seccion {
     padding: 80px 0;
 }
@@ -388,7 +388,7 @@ body {
     gap: 6px;
 }
 
-/* --- PROYECTOS --- */
+
 .filtros {
     display: flex;
     gap: 12px;
@@ -491,7 +491,7 @@ body.oscuro .tarjeta-proyecto:hover h3 {
     flex-grow: 1;
 }
 
-/* --- FORMULARIO DE CONTACTO --- */
+
 .contacto-contenedor {
     max-width: 550px;
     margin: 0 auto;
@@ -574,7 +574,7 @@ body.oscuro .tarjeta-proyecto:hover h3 {
     border-color: rgba(239, 68, 68, 0.3);
 }
 
-/* --- PIE DE PÁGINA --- */
+
 .pie-pagina {
     text-align: center;
     padding: 40px 24px;
@@ -584,7 +584,7 @@ body.oscuro .tarjeta-proyecto:hover h3 {
     background-color: rgba(var(--fondo), 0.5);
 }
 
-/* --- BARRA DE PROGRESO --- */
+
 .barra-progreso {
     position: fixed;
     top: 0;
@@ -596,7 +596,7 @@ body.oscuro .tarjeta-proyecto:hover h3 {
     box-shadow: 0 0 10px var(--acento);
 }
 
-/* --- BOTÓN VOLVER ARRIBA --- */
+
 .btn-volver-arriba {
     position: fixed;
     bottom: 30px;
@@ -632,9 +632,7 @@ body.oscuro .tarjeta-proyecto:hover h3 {
     transform: translateY(-5px);
 }
 
-/* =========================================
-   RESPONSIVIDAD (Tablets y Móviles)
-========================================= */
+
 @media (max-width: 992px) {
     .hero {
         grid-template-columns: 1fr;

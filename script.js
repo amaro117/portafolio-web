@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // Limpieza dinámica de errores al escribir
+    
     [nombre, email, mensaje].forEach(campo => {
       if (campo) {
         campo.addEventListener("input", () => {
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let formularioValido = true;
 
-        // Validación de Nombre
+        
         if(nombreValor.length < 3){
           mostrarError(nombre, "Por favor ingresa tu nombre completo (mínimo 3 caracteres).");
           formularioValido = false;
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
           limpiarError(nombre);
         }
 
-        // Validación de Correo Electrónico (Regex)
+       
         const regexEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         if(emailValor === "") {
           mostrarError(email, "Por favor ingresa tu correo electrónico.");
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
           limpiarError(email);
         }
 
-        // Validación de Mensaje
+       
         if(mensajeValor.length < 10){
           mostrarError(mensaje, "Por favor escribe un mensaje con al menos 10 caracteres.");
           formularioValido = false;
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           });
         } else {
-          // Simulación de envío exitoso para demostración de evaluación
+         
           setTimeout(() => {
             if (resultado) {
               resultado.textContent = `¡Mensaje enviado con éxito! Gracias por comunicarte, Amaro te responderá pronto.`;
